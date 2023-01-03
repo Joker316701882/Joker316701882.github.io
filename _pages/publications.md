@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Publications by categories in reversed chronological order. Full list can be found at <b><a href='https://scholar.google.com/citations?user=hJ-VrrIAAAAJ&hl=en'>Google Scholar</a></b>.
 years: [2022, 2021, 2020, 2019, 2017]
 nav: true
