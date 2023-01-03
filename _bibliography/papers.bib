@@ -1,94 +1,71 @@
 ---
 ---
 
-@string{cvpr = {Proceeding of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),}}
-@string{eccv = {Proceeding of the European Conference on Computer Vision (ECCV),}}
-@string{iccv = {American Physical Society,}}
-@string{icml = {Proceeding of the 36th International Conference on Machine Learning (ICML),,}}
-@string{neurips = {Proceeding of Advances in Neural Information Processing Systems (NeurIPS),}}
-@string{aaai = {Proceeding of Association for the Advancement of Artificial Intelligence (AAAI),}}
-@string{ijcai = {Proceeding of International Joint Conferences on Artificial Intelligence (IJCAI),}}
-@string{acmmmm = {Proceeding of The 29th ACM International Conference on Multimedia (ACM MM), }}
-@string{interspeech ={The Conference of the International Speech Communication Association (InterSpeech), }}
+@string{cvpr = {Proceeding of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}}
+@string{eccv = {Proceeding of the European Conference on Computer Vision (ECCV)}}
+@string{iccv = {American Physical Society}}
+@string{icml = {Proceeding of the 36th International Conference on Machine Learning (ICML)}}
+@string{neurips = {Proceeding of Advances in Neural Information Processing Systems (NeurIPS)}}
+@string{aaai = {Proceeding of Association for the Advancement of Artificial Intelligence (AAAI)}}
+@string{ijcai = {Proceeding of International Joint Conferences on Artificial Intelligence (IJCAI)}}
+@string{acmmmm = {Proceeding of The 29th ACM International Conference on Multimedia (ACM MM) }}
+@string{interspeech ={The Conference of the International Speech Communication Association (InterSpeech) }}
 
-@inproceedings{li2022bevdepth,
+@inproceedings{li2022bevstereo,
   abbr={AAAI'23},
   bibtex_show={true},
-  title={Bevdepth: Acquisition of Reliable Depth for Multi-view 3d Object Detection},
-  author={Li, Yinhao and Ge, Zheng and Yu, Guanyi and Yang, Jinrong and Wang, Zengran and Shi, Yukang and Sun, Jianjian and Li, Zeming},
+  title={BEVStereo: Enhancing Depth Estimation in Multi-view 3d Object Detection with Dynamic Temporal Stereo},
+  author={Li, Yinhao and Bao, Han and Ge, Zheng and Yang, Jinrong and Sun, Jianjian and Li, Zeming},
   booktitle=aaai,
   year={2022},
-  html={https://arxiv.org/abs/2206.10092},
+  url={https://arxiv.org/abs/2209.10248},
   code={https://github.com/Megvii-BaseDetection/BEVDepth},
   selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{li2022bevdepth,
+  abbr={AAAI'23},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+  title={BEVDepth: Acquisition of Reliable Depth for Multi-view 3d Object Detection},
+  author={Li, Yinhao and Ge, Zheng and Yu, Guanyi and Yang, Jinrong and Wang, Zengran and Shi, Yukang and Sun, Jianjian and Li, Zeming},
+  booktitle=aaai,
+  year={2022},
+  url={https://arxiv.org/abs/2206.10092},
+  code={https://github.com/Megvii-BaseDetection/BEVDepth},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{zhou2022dense,
+  abbr={ECCV'22},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  title={Dense Teacher: Dense Pseudo-labels for Semi-supervised Object Detection},
+  author={Zhou, Hongyu and Ge, Zheng and Liu, Songtao and Mao, Weixin and Li, Zeming and Yu, Haiyan and Sun, Jian},
+  booktitle=eccv,
+  year={2022},
+  url={https://arxiv.org/abs/2207.02541},
+  code={https://github.com/Megvii-BaseDetection/DenseTeacher},
+  selected={true}  
+}
+
+@article{ge2021yolox,
+  abbr={Arxiv},
+  bibtex_show={true},
+  title={YOLOX: Exceeding Yolo Series in 2021},
+  author={Ge, Zheng and Liu, Songtao and Wang, Feng and Li, Zeming and Sun, Jian},
+  year={2021},
+  url={https://arxiv.org/abs/2107.08430},
+  code={https://github.com/Megvii-BaseDetection/YOLOX},
+  selected={true}  
+}
+
+@inproceedings{ge2021ota,
+  abbr={CVPR'21},
+  bibtex_show={true},
+  title={OTA: Optimal Transport Assignment for Object Detection},
+  author={Ge, Zheng and Liu, Songtao and Li, Zeming and Yoshie, Osamu and Sun, Jian},
+  booktitle=cvpr,
+  year={2021},
+  url={https://openaccess.thecvf.com/content/CVPR2021/html/Ge_OTA_Optimal_Transport_Assignment_for_Object_Detection_CVPR_2021_paper.html},
+  code={https://github.com/Megvii-BaseDetection/OTA},
+  selected={true}  
 }
