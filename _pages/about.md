@@ -11,7 +11,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: False  # includes social icons at the bottom of the page
 ---
 
 He currentlty works as a researcher at Megvii Technology, supervised by [Dr.Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=zh-CN). He leads a team working on unified foundation models for autonomous driving, as well as 2D detection models on solving real-world challenges. His team develops and maintains several well-known projects, including [**YOLOX**](https://github.com/Megvii-BaseDetection/YOLOX) and [**BEVDepth**](https://github.com/Megvii-BaseDetection/BEVDepth) series.
